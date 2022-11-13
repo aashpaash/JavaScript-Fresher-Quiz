@@ -1,10 +1,29 @@
 //QUESTIONS
 var questions = [
     {
-        question: "How much does a roof cost?",
-        choices: ["a. nothing it's on the house", "b. the house", "c. house and home"],
-        answer: "a. nothing it's on the house"
+        joke: "How much does a roof cost?",
+        choices: ["1. Nothing it's on the house", "2. The house", "3. House and home"],
+        answer: "1. Nothing it's on the house"
     },
     {
-        question: "Why are elevator jokes so classic and good?",
-        choices:
+        joke: "Why are elevator jokes so classic and good?",
+        choices: ["1. Everyone gets in", "2. It can only go up", "3. They work on every level"],
+        answer: "3. They work on every level"
+    },
+    {
+        joke: "Did you hear about the restaurant on the moon?",
+        choices: ["1. No! It's on the moon", "2. Yea! Great food, no atmoshphere", "3. Yea, I go every luner"],
+        answer: "2. Yea! Great food, no atmoshphere!"
+    },
+    {
+        joke: "What do sprinters eat before a race?",
+        choices: ["1. Break - Fast!", "2. Nothing! They fast!", "3. Banana Split!"],
+        answer: "2. Nothing! They fast!"
+    },
+    {
+        joke: "What rock group has four men that don't sing?",
+        choices: ["1. Mount Rushmore", "2. KISS", "3. Nine Inch Nails"],
+        answer: "1. Mount Rushmore"
+    }
+]
+//
