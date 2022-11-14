@@ -1,3 +1,11 @@
+
+//TIMER
+
+
+
+
+
+
 //QUESTIONS
 var questions = [
     {
@@ -25,5 +33,17 @@ var questions = [
         choices: ["1. Mount Rushmore", "2. KISS", "3. Nine Inch Nails"],
         answer: "1. Mount Rushmore"
     }
-]
-//
+];
+
+//RESULTS
+
+
+
+//HIGHSCORE
+
+
+
+
+
+
+

@@ -5,10 +5,26 @@
     position: relative;
 }
 
-header
+.header {
+    display: flex;
+    padding: 60px;
+    font-family: monospace, Arial, Helvetica, sans-serif, serif;
+    background-color: rgb(156, 156, 244);
+}
 
 
-content
+.content {
+    display: wrap;
+    width: 70%;
+    display: inline-block;
+    position:relative;
+    font-family: monospace, Arial, Helvetica, sans-serif, serif;
+}
 
 
-body
+.body {
+    background-color: burlywood;
+    font-family: monospace, Arial, Helvetica, sans-serif, serif;
+    text-align: center;
+}
+
