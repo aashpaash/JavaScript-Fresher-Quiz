@@ -1,9 +1,23 @@
-
 //TIMER
+var timerEL = document.getElementById('countdown');
 
+function countdown () {
+    var timeLeft = 10;
+    var timeInterval = setInterval(function () {
+        if (timeLeft > 1) {
+            timerEL.textContent = countdown + ' seconds remaining';
+            timeLeft--;
+        } else if (timeLeft ===1) {
+            timerEL.textContent = timeLeft + ' seconds remaining';
+            timeLeft--;
+        } else {
+            timerEL.textContent = '';
+            clearInterval(timeInterval);
+            displayMessage();
+        }
+    }, 90);
 
-
-
+}
 
 
 //QUESTIONS
@@ -35,15 +49,14 @@ var questions = [
     }
 ];
 
+//SCORE
+function score() {
+
+
 //RESULTS
 
 
 
 //HIGHSCORE
-
-
-
-
-
 
 
