@@ -1,4 +1,13 @@
+//BUTTON
+var startDiv = document.getElementById('start');
+var startQuizButton = document.getElementById('start-quiz');
+
+var choice1 = 
+var choice2 =
+var choice3 =
+
 //TIMER
+var time = 90;
 var timerEL = document.getElementById('countdown');
 
 function countdown () {
@@ -15,7 +24,7 @@ function countdown () {
             clearInterval(timeInterval);
             displayMessage();
         }
-    }, 90);
+    }, 1000);
 
 }
 
