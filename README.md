@@ -31,7 +31,7 @@ THEN I can save my initials and score<br>
 
 ## Results
 GitHub link: https://github.com/aashpaash/Web-APIs<br>
-Deployed link:
+Deployed link: https://aashpaash.github.io/JavaScript-Fresher-Quiz/
 
 ## License
 ![License Badge](https://img.shields.io/badge/API-API-blue)<br/>
