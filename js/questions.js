@@ -1,35 +1,4 @@
-//BUTTON
-var startDiv = document.getElementById('start');
-var startQuizButton = document.getElementById('start-quiz');
-
-var choice1 = 
-var choice2 =
-var choice3 =
-
-//TIMER
-var time = 90;
-var timerEL = document.getElementById('countdown');
-
-function countdown () {
-    var timeLeft = 10;
-    var timeInterval = setInterval(function () {
-        if (timeLeft > 1) {
-            timerEL.textContent = countdown + ' seconds remaining';
-            timeLeft--;
-        } else if (timeLeft ===1) {
-            timerEL.textContent = timeLeft + ' seconds remaining';
-            timeLeft--;
-        } else {
-            timerEL.textContent = '';
-            clearInterval(timeInterval);
-            displayMessage();
-        }
-    }, 1000);
-
-}
-
-
-//QUESTIONS
+//Quiz question array
 var questions = [
     {
         joke: "How much does a roof cost?",
@@ -57,15 +26,3 @@ var questions = [
         answer: "1. Mount Rushmore"
     }
 ];
-
-//SCORE
-function score() {
-
-
-//RESULTS
-
-
-
-//HIGHSCORE
-
-

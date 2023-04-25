@@ -1,43 +1,74 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+
+<html lang="en">
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale= 1.0, maximum-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <title>Feeling Funny?</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="style.js" />
+
+        <title>JavaScript Refresher Quiz</title>
+
+        <link rel="stylesheet" href="./assets/style.css"/>
     </head>
 
-    <!--CONTENT-->
+   
     <body>
+        <nav>  <!--Navagation to scores and timer-->
+            <a href="highscore.html">
+                <strong>View Scores</strong>
+            </a> &nbsp;&nbsp;
+            <p id="font"><strong>It's The Final Countdown: 75</strong> </p>
+        </nav>
+         <!--Page title-->
         <header>
-            <div class="header">
-             <h1>WELCOME.</h1>
+            <div id="header">
+             <h1>JavaScript Fresher Quiz.</h1>
             </div>   
         </header>
-    
-        <div id="questions" class=""
-
-        <button type="button" id="start-quiz-button" class="
-
-        <h3>
-            <p>Feeling funny? Take this quiz and find out!
-                <br>Beware! Answer incorrectly and time is taken away from the timer.
+        &nbsp;&nbsp;
+         <!--Intro to quiz-->
+        <div id="home-page">
+            <h2>WELCOME</h2>  
+            &nbsp;&nbsp;
+            <p>Take this quiz to see how much you know about javascript foundations.
             </p>
-        </h3>
-     
 
+            <br>
 
-
-
-
-
-
-
-
-
+            <p>Beware! Answer incorrectly and time is taken away from the timer.
+            </p>     
+        </div>
+         <!--Start quiz button-->
+        <button id="start"><strong>START QUIZ</strong></button>
         
+
+        <div section="qSection" class="hide">
+            <div id="quizOptions"></div>
+            <div id="quizAnswers"></div>
+            <div id="qBox" id="qs">
+                <div id="questions"></div>
+                <div id="answers" class="buttonArea"></div>
+                <h3 id="correct" class="hide"><strong>Yay!</strong></h3>
+                <h3 id="wrong" class="gamehide"><strong>Oops!</strong></h3>
+            </div>
+        </div>
+
+        <div id="view-score" class="hide">
+            <h2>FINISHED!</h2>
+            <div>
+                <p>Your Score:<span id="quizscore"></span></p>!
+            </div> 
+            
+            <div>
+                <p>Join the scoreboard:
+                    <input type="text" id="usernam" maxlength="5"/>
+                    <button id="submit">Join!</button> 
+                </p>
+            </div>
+        </div>
+ 
+     <script src = "js/questions.js"></script>  
+     <script src = "js/quiz.js"></script>
     </body>
 
 </html>

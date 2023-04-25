@@ -1,5 +1,5 @@
 # Web-APIs
-# Acceptance Criteria
+## Acceptance Criteria
 GIVEN I am taking a code quiz
 <br>WHEN I click the start button
 <br>THEN a timer starts and I am presented with a question

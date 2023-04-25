@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+    align-items: center;
+    font-family: monospace, sans-serif;
+    background-color: rgb(244, 219, 198);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(240, 231, 240);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 auto;
+}
+#font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 200;
+}
+/*main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    max-width: 600px;
+}*/
+
+content {
+    margin: 100px 0 auto;
+    width: 100%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 0.5s ease-in-out;
+    background-color: indianred;
+    font-size: 20px;
+    width: 200px;
+    opacity: 80%;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: grey;
+    opacity: 70%;
+}
+
+section {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+h1 {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 {
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-style: italic;
+    opacity: 15%;
+    font-style: italic;
+
+}
+
+/*#all-scores {
+    width: auto;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}*/
+#view-score {
+    font: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+  
+    align-items: center;
+    font-family: monospace, sans-serif;
+    background-color: rgb(244, 219, 198);
+    text-align: center;
+}
+
+#usermane{
+    display:inline-flex
+}
+
+#submit {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.hide {
+    display:none;
+}
+
+.show {
+    display:block;
+}
+
+.footer h2 {
+    font-size: 8px;
+    text-align: left;
+}
