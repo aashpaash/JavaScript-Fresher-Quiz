@@ -19,7 +19,7 @@ var timeInterval = setInterval(function timerEL() {
         endQuizButton();
         document.getElementById("timerEl").textContent ="Time" + timeLeft;
     } else {
-        document.getElementById("timerEl").textContent ="Time" + timeLeft;
+//        document.getElementById("timerEl").textContent ="Time" + timeLeft;
         displayMessage("Quiz finished");
     }
 }, 1000);
